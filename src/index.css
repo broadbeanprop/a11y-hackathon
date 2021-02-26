@@ -10,6 +10,7 @@ body {
     letter-spacing: -0.25px;
     line-height: 1.4;
     padding: 1em;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, table th, table th .header {
@@ -41,8 +42,9 @@ ul {
     list-style: none;
 }
 
-.inline-list li {
-    float: left;
+.inline li {
+    display: inline;
+    padding-right: .5em;
 }
 
 .visually-hidden {
@@ -77,4 +79,42 @@ figure {
 
 .icon.icon-account::before {
     content: '🦄';
+}
+
+.color--red {
+    color: red;
+}
+
+.has-click-region,
+.has-click-region-xl {
+    display: block;
+    position: relative;
+}
+
+.has-click-region-xl::after,
+.has-click-region::after {
+    display: block;
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.has-click-region::after {
+    padding: 1em;
+    left: -1em;
+    top: -1em;
+}
+
+.has-click-region-m::after {
+    padding: 2em;
+    left: -2em;
+    top: -2em;
+}
+
+.has-click-region-xl::after {
+    padding: 5em;
+    left: -5em;
+    top: -5em;
 }

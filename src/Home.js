@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import OverviewCategory from './OverviewCategory';
 import OverviewCover from './OverviewCover';
 
@@ -20,7 +21,7 @@ const Series = createList(seriesData);
 
 function Home() {
     return (
-        <main>
+        <Fragment>
             <header className="visually-hidden">
                 <h1>Home</h1>
             </header>
@@ -33,7 +34,7 @@ function Home() {
                 <ul className="slider unlist">{Series}</ul>
             </OverviewCategory>
 
-        </main>
+        </Fragment>
     );
 }
 

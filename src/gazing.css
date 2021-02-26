@@ -1,5 +1,4 @@
 body {
-    transform: scale(1, 1);
     transition: transform ease 2s;
 }
 
@@ -10,3 +9,56 @@ body {
 .about-to-click {
     background: orange!important;
 }
+
+.gazing-scroll-up,
+.gazing-scroll-down {
+    position: fixed;
+    width: 40%;
+    height: 6em;
+    background: white;
+    z-index: 10000000;
+    opacity: 0;
+    color: black;
+    cursor: pointer;
+    transition: all ease 250ms;
+}
+
+
+.gazing-scroll-up:hover,
+.gazing-scroll-up.hover,
+.gazing-scroll-down:hover,
+.gazing-scroll-down.hover {
+    opacity: 0.75;
+    transform: scale(1.5, 1.5);
+}
+
+.gazing-scroll-up {
+    top: 0;
+    left: 30%;
+}
+
+.gazing-scroll-down {
+    bottom: 0;
+    left: 30%;
+}
+
+.gazing-scroll-up::before,
+.gazing-scroll-down::before {
+    font-size: 1em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -.75em 0 0 -.5em;
+}
+
+
+.gazing-scroll-up::before {
+    content: '▴';
+}
+
+
+.gazing-scroll-down::before {
+    content: '▾';
+}
+
+

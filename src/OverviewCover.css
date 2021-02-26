@@ -1,18 +1,19 @@
 .overview-cover {
     padding: 0 2em 2em 0;
-    transition: all ease 200ms;
-    transform-origin: 50% 50%;
-}
-
-.overview-cover.hover,
-.overview-cover:hover {
-    transform: scale(1.1,1.1);
 }
 
 .overview-cover a {
-    text-decoration: none
+    text-decoration: none;
+    border: 0;
+    transition: all ease 200ms;
+    transform-origin: 50% 50%;
 }
-
+.overview-cover a.hover,
+.overview-cover a:hover {
+    border-bottom: 0 !important;
+    z-index: 1000;
+    transform: scale(1.1,1.1);
+}
 
 .overview-cover img {
     width: 300px;
@@ -29,6 +30,7 @@
     transition: all ease 200ms;
 }
 
-.overview-cover aside {
+.overview-cover .labels {
     font-size: .75em;
+    color: #BBB;
 }

@@ -10,17 +10,20 @@
     position: relative;
     z-index: 1;
     display: inline-block;
-    padding: 1em 1.5em 1em 1em;
+    padding: 1.5em 2em 1.5em 1.5em;
     text-transform: uppercase;
     color: white;
     background-color: black;
     border: 0;
+    clear: both;
 }
 
+.detail__button-back.hover,
 .detail__button-back:hover {
     border-color: white;
     border: 0;
-    padding: 1em 2em 1em 1em;
+    background-color: white !important;
+    color: black !important;
 }
 
 .detail__button-back::before {
@@ -36,10 +39,20 @@
     padding-right: .5em;
 }
 
+.detail__cover {
+    clear:left;
+    float:left;
+    vertical-align: middle;
+    margin-top: 2em;
+    margin-right: 2em;
+    position: relative;
+    z-index: 1;
+}
+
 .detail__header {
     position: relative;
     z-index: 1;
-    margin-top: 5em;
+    margin-top: 3.5em;
 }
 
 .detail__title {
@@ -48,10 +61,45 @@
     z-index: 1;
     text-shadow: rgb(0 0 0) 0px 7px 0px;
     margin-bottom: .5em;
+    line-height: 1em;
 }
 
 .detail__description {
-    max-width: 30em;
+    position: relative;
+    z-index: 1;
+    max-width: 45em;
+}
+
+.detail__play,
+.detail__add-to-list {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-top: .5em;
+    border-radius: 2em;
+    padding: .75em 2em;
+    color: white;
+    cursor: pointer;
+    margin-right: 0.25em;
+}
+
+
+.detail__play:hover,
+.detail__play.hover,
+.detail__add-to-list:hover,
+.detail__add-to-list.hover {
+    background: white;
+    color: black;
+    border: 0;
+    z-index:2;
+}
+
+.detail__play {
+    background: red;
+}
+
+.detail__add-to-list {
+    background: transparent;
 }
 
 .detail__background-image {
