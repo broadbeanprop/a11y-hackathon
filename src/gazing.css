@@ -1,0 +1,12 @@
+body {
+    transform: scale(1, 1);
+    transition: transform ease 2s;
+}
+
+.is-gazing {
+    transform: scale(3, 3);
+}
+
+.about-to-click {
+    background: orange!important;
+}

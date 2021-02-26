@@ -1,0 +1,34 @@
+.overview-cover {
+    padding: 0 2em 2em 0;
+    transition: all ease 200ms;
+    transform-origin: 50% 50%;
+}
+
+.overview-cover.hover,
+.overview-cover:hover {
+    transform: scale(1.1,1.1);
+}
+
+.overview-cover a {
+    text-decoration: none
+}
+
+
+.overview-cover img {
+    width: 300px;
+}
+
+.overview-cover.hover h3,
+.overview-cover:hover h3 {
+    color: red;
+}
+
+.overview-cover h3 {
+    font-size: 1em;
+    margin: 0.5em 0;
+    transition: all ease 200ms;
+}
+
+.overview-cover aside {
+    font-size: .75em;
+}

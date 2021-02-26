@@ -1,0 +1,66 @@
+.detail__background-image::before {
+    content: '';
+    display: block;
+    height: 100%;
+    background-image: linear-gradient(transparent, black);
+}
+
+.detail__button-back {
+    margin-top: 1em;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 1em 1.5em 1em 1em;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: 0;
+}
+
+.detail__button-back:hover {
+    border-color: white;
+    border: 0;
+    padding: 1em 2em 1em 1em;
+}
+
+.detail__button-back::before {
+    display:inline-block;
+    content: '⟨';
+    padding-right: 1em;
+    transition: ease 200ms all;
+}
+
+.detail__button-back:hover::before {
+    display:inline-block;
+    content: '⟪';
+    padding-right: .5em;
+}
+
+.detail__header {
+    position: relative;
+    z-index: 1;
+    margin-top: 5em;
+}
+
+.detail__title {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    z-index: 1;
+    text-shadow: rgb(0 0 0) 0px 7px 0px;
+    margin-bottom: .5em;
+}
+
+.detail__description {
+    max-width: 30em;
+}
+
+.detail__background-image {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 25%;
+}

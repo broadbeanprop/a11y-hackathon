@@ -1,0 +1,82 @@
+[
+  {
+    "title":"Triple Threat",
+    "cover":"https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/z/j/5ffda64e32a6f_355x530.jpg",
+    "background":"https://ehn7zwe.cloudimg.io/v7/https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/c/p/602680879b44d_1920x1080.jpg?force_format=webp,jpeg&q=75",
+    "slug":"triple-threat",
+    "releaseYear":"2019",
+    "genre":"Action",
+    "description":"A crime syndicate places a hit on a billionaire's daughter, making her the target of an elite assassin squad. A small band of down-and-out mercenaries protects her, fighting tooth and nail to stop the assassins from reaching their target.",
+    "language":"English"
+  },
+  {
+    "title":"Mr. & Mrs. Smith",
+    "cover":"https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/p/d/5ff5b3c26cfdb_355x530.JPG",
+    "background":"https://ehn7zwe.cloudimg.io/v7/https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/b/x/60267e2d0f137_1920x1080.jpg?force_format=webp,jpeg&q=75",
+    "slug":"mr-mrs-smith",
+    "releaseYear":"2005",
+    "genre":"Action, Comedy",
+    "description":"After five (or six) years of vanilla-wedded bliss, ordinary suburbanites John and Jane Smith are stuck in a huge rut. Unbeknownst to each other, they are both coolly lethal, highly-paid assassins working for rival organisations. When they discover they're each other's next target, their secret lives collide in a spicy, explosive mix of wicked comedy, pent-up passion, nonstop action and high-tech weaponry.",
+    "language":"English"
+  },
+  {
+    "title":"John Wick 2",
+    "cover":"https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/9/6/5d147684698d5_355x530.jpg",
+    "background":"https://ehn7zwe.cloudimg.io/v7/https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/2/b/5d4b2352baee6_1920x1080.jpg?force_format=webp,jpeg&q=75",
+    "slug":"john-wick-2",
+    "releaseYear":"2017",
+    "genre":"Action, Thriller",
+    "description":"John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
+    "language":"English"
+  },
+  {
+    "title":"Survive the Night",
+    "cover":"https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/8/6/5ffda522b2939_355x530.jpg",
+    "background":"https://ehn7zwe.cloudimg.io/v7/https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/d/i/601bc5ae3ac80_1920x1080.jpg?force_format=webp,jpeg&q=75",
+    "slug":"survive-the-night",
+    "releaseYear":"2020",
+    "genre":"Action, Thriller",
+    "description":"A disgraced doctor and his family are held hostage at their home by criminals on the run, when a robbery-gone-awry requires them to seek immediate medical attention. ",
+    "language":"English"
+  },
+  {
+    "title":"T-34",
+    "cover":"https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/x/t/5ffda4cff1efd_355x530.jpg",
+    "background":"https://ehn7zwe.cloudimg.io/v7/https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/j/m/601bb8c3f2511_1920x1080.jpg?force_format=webp,jpeg&q=75",
+    "slug":"t-34",
+    "releaseYear":"2018",
+    "genre":"Action",
+    "description":"In 1944, a courageous group of Russian soldiers managed to escape from German captivity in a half-destroyed legendary T-34 tank. Those were the times of unforgettable bravery, fierce fighting, unbreakable love, and legendary miracles. ",
+    "language":"Russian"
+  },
+  {
+    "title":"Risen",
+    "cover":"https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/8/t/579afd8e9d59e_355x530.jpg",
+    "background":"https://ehn7zwe.cloudimg.io/v7/https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/i/x/57a8338d68aab_1920x1080.jpg?force_format=webp,jpeg&q=75",
+    "slug":"risen",
+    "releaseYear":"2016",
+    "genre":"Drama, Action",
+    "description":"In 33 AD, a Roman Tribune in Judea is tasked to find the missing body of Jesus Christ, who rose from the dead.",
+    "language":"English"
+  },
+  {
+    "title":"Django Unchained",
+    "cover":"https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/9/2/5fdb5a345d44d_355x530.jpg",
+    "background":"https://ehn7zwe.cloudimg.io/v7/https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/f/j/534f794937885_1920x1080.jpg?force_format=webp,jpeg&q=75",
+    "slug":"django-unchained",
+    "releaseYear":"2012",
+    "genre":"Action",
+    "description":"With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
+    "language":"English"
+  },
+  {
+    "title":"Men in Black 3",
+    "cover":"https://img-opt.cdn.smartvod.com/smartvod/images/videoland/data/images/w/e/5fdb59e4797fe_355x530.jpg",
+    "background":"https://ehn7zwe.cloudimg.io/v7/https://images.videoland.com/cdn/n/n/https://objects.videoland.com/statics/images/default.jpeg?force_format=webp,jpeg&q=75",
+    "slug":"men-in-black-3",
+    "releaseYear":"2012",
+    "genre":"Action",
+    "description":"Agent J travels in time to M.I.B.'s early days in 1969 to stop an alien from assassinating his friend Agent K and changing history. ",
+    "language":"English"
+  }
+]
